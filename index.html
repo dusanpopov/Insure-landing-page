@@ -9,9 +9,9 @@
     <title>Insure Landing Page - Frontendmentor Challenge</title>
 </head>
 <body>
-    <nav>
+    <nav class="main-navbar">
         <div class="container">
-            <div class="flex">
+            <div class="flex-container">
                 <div class="img-wrapper">
                     <img src="./images/logo.svg" alt="logo" />
                 </div>
@@ -25,11 +25,11 @@
                     <img class="close" src="./images/icon-close.svg" alt="icon-close" />
                 </button>
 
-                <ul id="menu">
-                    <li><a href="#">How we work</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Account</a></li>
-                    <li><a class="btn btn-reverse" href="#">View plans</a></li>
+                <ul id="menu" class="main-navbar__list">
+                    <li class="main-navbar__list-item"><a href="#" class="main-navbar__link">How we work</a></li>
+                    <li class="main-navbar__list-item"><a href="#" class="main-navbar__link">Blog</a></li>
+                    <li class="main-navbar__list-item"><a href="#" class="main-navbar__link">Account</a></li>
+                    <li class="main-navbar__list-item"><a class="btn btn-reverse" href="#" class="main-navbar__link">View plans</a></li>
                 </ul>
             </div>
         </div>
@@ -37,7 +37,7 @@
 
     <header>
         <div class="container">
-            <div class="flex align-start reverse-mobile">
+            <div class="flex-container align-start reverse-mobile">
                 <div>
                     <h1 class="line-top">
                         Humanizing your insurance.
@@ -68,7 +68,7 @@
         <h2 class="line-top line-violet">
             We’re different
         </h2>
-        <div class="flex">
+        <div class="flex-container">
             <div class="tile">
                 <img src="./images/icon-snappy-process.svg" alt="snappy" />
                 <h3>
@@ -105,7 +105,7 @@
     </section>
 
     <section class="container bg-violet">
-        <div class="flex">
+        <div class="flex-container">
             <div>
                 <h2>
                     Find out more about how we work
@@ -120,71 +120,71 @@
 
     <footer>
         <div class="container">
-            <div class="flex border-bottom">
+            <div class="flex-container border-bottom">
                 <div>
                     <img src="./images/logo.svg" alt="logo" />
                 </div>
 
-                <ul class="flex">
-                    <li>
-                        <a href="#">
+                <ul class="flex-container footer-list">
+                    <li class="footer-list__item">
+                        <a href="#" class="footer__link">
                             <img src="./images/icon-facebook.svg" alt="facebook" />
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li class="footer-list__item">
+                        <a href="#"" class="footer__link">
                             <img src="./images/icon-twitter.svg" alt="twitter" />
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li class="footer-list__item">
+                        <a href="#" class="footer__link">
                             <img src="./images/icon-pinterest.svg" alt="pinterest" />
                         </a>
                     </li>
-                    <li>
-                        <a href="#">
+                    <li class="footer-list__item">
+                        <a href="#" class="footer__link">
                             <img src="./images/icon-instagram.svg" alt="instagram" />
                         </a>
                     </li>
                 </ul>
             </div>
 
-            <div class="flex align-start">
+            <div class="flex-container align-start">
                 <div>
                     <h4>Our company</h4>
-                    <ul>
-                        <li><a href="#">How we work</a></li>
-                        <li><a href="#">Why Insure?</a></li>
-                        <li><a href="#">View plans</a></li>
-                        <li><a href="#">Reviews</a></li>
+                    <ul class="footer-list">
+                        <li class="footer-list__item"><a href="#" class="footer__link">How we work</a></li>
+                        <li class="footer-list__item"><a href="#" class="footer__link">Why Insure?</a></li>
+                        <li class="footer-list__item"><a href="#" class="footer__link">View plans</a></li>
+                        <li class="footer-list__item"><a href="#" class="footer__link">Reviews</a></li>
                     </ul>
                 </div>
 
                 <div>
                     <h4>Help me</h4>
-                    <ul>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Terms of use</a></li>
-                        <li><a href="#">Privacy policy</a></li>
-                        <li><a href="#">Cookies</a></li>
+                    <ul class="footer-list">
+                        <li class="footer-list__item"><a href="#" class="footer__link">FAQ</a></li>
+                        <li class="footer-list__item"><a href="#" class="footer__link">Terms of use</a></li>
+                        <li class="footer-list__item"><a href="#" class="footer__link">Privacy policy</a></li>
+                        <li class="footer-list__item"><a href="#" class="footer__link">Cookies</a></li>
                     </ul>
                 </div>
 
                 <div>
                     <h4>Contact</h4>
-                    <ul>
-                        <li><a href="#">Sales</a></li>
-                        <li><a href="#">Support</a></li>
-                        <li><a href="#">Live chat</a></li>
+                    <ul class="footer-list">
+                        <li class="footer-list__item"><a href="#" class="footer__link">Sales</a></li>
+                        <li class="footer-list__item"><a href="#" class="footer__link">Support</a></li>
+                        <li class="footer-list__item"><a href="#" class="footer__link">Live chat</a></li>
                     </ul>
                 </div>
 
                 <div>
                     <h4>Others</h4>
-                    <ul>
-                        <li><a href="#">Careers</a></li>
-                        <li><a href="#">Press</a></li>
-                        <li><a href="#">Licenses</a></li>
+                    <ul class="footer-list">
+                        <li class="footer-list__item"><a href="#" class="footer__link">Careers</a></li>
+                        <li class="footer-list__item"><a href="#" class="footer__link">Press</a></li>
+                        <li class="footer-list__item"><a href="#" class="footer__link">Licenses</a></li>
                     </ul>
                 </div>
             </div>
