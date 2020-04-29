@@ -1,6 +1,6 @@
 
 * {
-	box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 html{
@@ -55,7 +55,7 @@ a{
 }
 
 p {
-	line-height: 1.7;
+    line-height: 1.7;
     opacity: 0.8;
     text-align: left;
     padding: .3rem;
