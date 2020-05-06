@@ -73,7 +73,7 @@ p {
 }
 
 .line-violet::before {
-	background-color: var(--dark-violet);
+    background-color: var(--dark-violet);
 }
 
 .btn {
