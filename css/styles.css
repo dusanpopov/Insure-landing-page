@@ -113,7 +113,7 @@ p {
 	align-items: flex-start;
 }
 
-/* Nav styling */
+/* NAVBAR */
 .main-navbar {
 	background-color: #fff;
 	position: fixed;
@@ -148,7 +148,7 @@ p {
 	text-decoration: none;
 }
 
-/* Header styling */
+/* HEADER */
 header {
 	background-color: var(--dark-violet);
 	color: #fff;
@@ -193,7 +193,7 @@ header::before {
 	margin-bottom: -25rem;
 }
 
-/* Section styling */
+/* SECTION */
 .bg-violet {
 	background-color: var(--dark-violet);
 	background-image: url('../images/bg-pattern-how-we-work-desktop.svg');
@@ -215,7 +215,7 @@ header::before {
 	margin-top: 8rem;
 }
 
-/* Footer styling */
+/* FOOTER */
 footer {
 	background-color: var(--very-light-gray);
 	background-image: url('../images/bg-pattern-footer-desktop.svg');
